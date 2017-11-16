@@ -1,2 +1,4 @@
-# pi-ProjectX
-Our Raspberry Pi project on Home Automation
+# Home Automation using Pi
+_Our Raspberry Pi project on Home Automation_
+
+
