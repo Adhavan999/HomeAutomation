@@ -1,0 +1,2 @@
+2018-02-21 23:56:51 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=8 from 2018-02-21 18:23:49.095778)
+2018-02-21 23:57:35 WARNING (MainThread) [homeassistant.components.group] Group 'all_scripts' doesn't exist!

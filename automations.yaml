@@ -1,0 +1,8 @@
+action:
+  service: notify.tea_time
+  data:
+    message: "Hey Karthik Guru! See how cool our project is?!"
+    title: "Sup Adhavan"
+trigger:
+  platform: time
+  at: '23:58:00'
