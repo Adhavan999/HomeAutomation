@@ -1,8 +1,36 @@
-action:
-  service: notify.tea_time
-  data:
-    message: "Hey Karthik Guru! See how cool our project is?!"
-    title: "Sup Adhavan"
-trigger:
-  platform: time
-  at: '23:58:00'
+- alias: 'Tea Time'
+  action:
+    service: notify.tea_time
+    data:
+      message: "Hey, Adhavan! It's time for a cup of tea."
+      title: "Tea Time"
+  trigger:
+    platform: time
+    at: '16:15:00'
+
+- alias: 'Lunch Time'
+  action:
+    service: notify.tea_time
+    data:
+      message: "Hey, Amal! It's time for you to have your lunch."
+      title: "Lunch Time"
+  trigger:
+    platform: time
+    at: '12:30:00'
+
+- alias: IFTTT-yoyopeeps
+  trigger:
+    platform: time
+    at: 00:26:00
+  action:
+    service: ifttt.trigger
+    data: {"event":"yoyopeeps", "value1":"Hello World!"}
+
+- alias: Set Night Mode Theme after Sunset
+  trigger:
+  - platform: homeassistant
+    event: start
+  action:
+  - service: frontend.set_theme
+    data:
+      name: darkblue

@@ -1,0 +1,24 @@
+
+- cal_id: amalrajan.ec@gmail.com
+  entities:
+  - device_id: amalrajanecgmailcom
+    name: amalrajan.ec@gmail.com
+    track: true
+
+- cal_id: 8a4ko50nq55ma5smhuhdp5rpmaek45lg@import.calendar.google.com
+  entities:
+  - device_id: httpwwwhackerrankcomcalendarcalics
+    name: http://www.hackerrank.com/calendar/cal.ics
+    track: true
+
+- cal_id: '#contacts@group.v.calendar.google.com'
+  entities:
+  - device_id: contacts
+    name: Contacts
+    track: true
+
+- cal_id: en.indian#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: holidays_in_india
+    name: Holidays in India
+    track: true
