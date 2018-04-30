@@ -12,3 +12,6 @@ https://home-assistant.io/hassio/
 ## Screenshot
 
 ![screen 1](/Images/imag2.png)
+
+# License
+`The MIT License`
